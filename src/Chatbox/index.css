@@ -1,0 +1,107 @@
+.chat-box {
+  min-width: 300px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--darker);
+}
+.chat-header{
+    height: 50px;
+    width: 100vw;
+    background-color: var(--dark);
+    display: flex;
+    align-items: center;
+}
+.chat-name{
+    width: fit-content;
+    padding: 0px 10px;
+    color: var(--light);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.chat-from-other {
+  flex: 1;
+  overflow-y: auto;
+}
+.message-input {
+  justify-self: end;
+  height: 50px;
+  display: flex;
+}
+.message-input .message-box {
+  flex: 1;
+  font-size: 1.05rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid var(--darker);
+  background-color: var(--dark);
+  color: var(--lighter);
+}
+.message-input .message-send {
+  width: 100px;
+  border-radius: 0px 10px 10px 0px;
+  border: 1px solid var(--darker);
+  background-color: var(--dark);
+  color: var(--lighter);
+  font-size: 15px;
+  font-weight: 500;
+}
+.message-send:hover{
+    background-color: var(--darker);
+    border: 1px solid var(--dark);
+}
+.mine-chat-container {
+  justify-content: flex-start;
+  display: flex;
+  margin: 10px;
+}
+.mine-chat {
+  background-color: var(--dark);
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.mine-message {
+  color: var(--lighter);
+}
+
+.mine-time {
+  text-align: end;
+  font-size: 0.7rem;
+  color: var(--lighter);
+  padding-top: 5px;
+}
+
+.other {
+  justify-content: flex-end;
+  display: flex;
+  margin: 10px;
+}
+
+.other-chat-container {
+  display: flex;
+  flex-direction: column;
+}
+.other-name {
+  text-align: end;
+  color: var(--lighter);
+  font-size: 1.1rem;
+  margin-right: 10px;
+}
+.other-chat {
+  background-color: var(--lighter);
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 10px 0px 0px 10px;
+  justify-self: end;
+  color: var(--dark);
+}
+.other-time {
+  text-align: start;
+  font-size: 0.7rem;
+  color: var(--dark);
+  padding-top: 5px;
+}

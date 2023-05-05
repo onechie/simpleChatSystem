@@ -1,0 +1,38 @@
+.input-name-box{
+    background-color: var(--darker);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input-title{
+    font-size: 3rem;
+    color: var(--lighter);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.input-name{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.submit-name{
+    background-color: var(--dark);
+    color: var(--lighter);
+    border: none;
+    font-size: 1.5rem;
+    padding: 15px;
+    margin: 40px;
+    border-radius: 10px;
+    border: 1px solid var(--dark);
+}
+
+.submit-name:hover{
+    background-color: var(--darker);
+}
